@@ -1,0 +1,22 @@
+{
+  "name": "pulssync-backend",
+  "version": "1.0.0",
+  "description": "a application with kafka",
+  "main": "server.js",
+  "scripts": {
+    "start": "node dist/server.js",
+    "dev": "tsc-watch --onSuccess \"node dist/server.js\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tanmay",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.11.10",
+    "express": "^4.18.2",
+    "tsc-watch": "^6.0.4"
+  }
+}
